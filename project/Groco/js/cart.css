@@ -1,0 +1,208 @@
+/**
+* ! Changing default styles of the browser
+**/
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  /* body {
+    font-family: sans-serif;
+  } */
+  
+  /* i {
+    cursor: pointer;
+  } */
+  
+  /* a {
+    text-decoration: none;
+    color: white;
+  } */
+  
+  /**
+  * ! Navbar STyles are here
+  **/
+body{
+  overflow: hidden;
+}
+  .bi-x-lg {
+    color: #fe0c0c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+  
+  
+  
+  .cart {
+    /* position: relative; */
+    margin-top: 100px;
+    background-color: #fff;
+    color: #212529;
+    font-size: 30px;
+
+    /* padding: 1px; */
+    /* border-radius: 4px; */
+  }
+   
+  .cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  /**
+  * ! Shop items styles are here
+  **/
+  
+  .shop {
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: space-around; */
+  }
+  .text{
+    text-align: center;
+  }
+  .cart-item {
+    border: 2px solid #212529;
+    border-radius: 5px;
+    display: flex;
+    width: 300px;
+    margin: 5px;
+  }
+  .title-price-x {
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+  }
+  
+  @media (max-width: 1000px) {
+    .shop {
+      grid-template-rows: repeat(2, 223px);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .shop {
+      grid-template-rows: repeat(1, 223px);
+    }
+  }
+  
+  .item {
+    border: 2px solid #212529;
+    border-radius: 4px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+  }
+  
+  .bi-dash-lg {
+    color: red;
+  }
+  
+  .bi-plus-lg {
+    color: green;
+  }
+  
+  /**
+  * ! style rules for label and some buttons
+  **/
+  
+  .text-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .HomeBtn,
+  .checkout,
+  .removeAll {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 630px;
+  }
+  .empty{
+  margin-left:630px ;
+  margin-top: 40px;
+  }
+  
+  .checkout {
+    background-color: green;
+    flex-direction: column;
+    margin-left: 630px;
+
+  }
+  .removeAll {
+    background-color: red;
+    flex-direction: column;
+  }
+  .bi-x-lg {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /**
+  * ! style rules for shopping-cart
+  **/
+  
+  .shopping-cart {
+    display: grid;
+    grid-template-rows: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /**
+  * ! style rules for cart-item
+  **/
+  
+  
+  
+  
+  .title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item-price {
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 6px;
+  }
+
+  .footer{
+    position: absolute;
+  }
+  
+  
